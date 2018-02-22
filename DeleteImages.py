@@ -5,6 +5,8 @@ script_name = argv
 choice=input("Do you want to validate each delete operation? ")
 print("EXIT AT ANYTIME USING exit")
 
+#asks before every delete
+
 if(choice == "yes"):
     for i in os.listdir():
         if i.endswith(".jpg"):
@@ -16,6 +18,9 @@ if(choice == "yes"):
                 print(i+" will not be deleted\n ")
             elif(confirm =="exit"):
                 quit()
+
+#Directly deletes all images
+
 elif(choice == "no"):
     for i in os.listdir():
         if i.endswith(".jpg"):
@@ -25,6 +30,8 @@ elif(choice == "exit"):
     quit()
 
 count=0
+
+#Mentions how many files remaining
 
 for i in os.listdir():
     if i.endswith(".jpg"):
