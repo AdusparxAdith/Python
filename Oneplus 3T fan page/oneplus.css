@@ -1,0 +1,156 @@
+h1,h3
+{    text-align:center;
+	font-family:courier new;
+	font-weight:bold;
+	
+	color:#eb0028;
+	
+	
+	
+}
+
+#intro
+{
+	font-family: courier new;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#eb0028;
+	
+	
+}
+
+#outro
+{
+	font-family: courier new;
+	color:#ffffff;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#333;
+	
+	
+	
+	
+}
+
+#bann
+{
+	position:absolute; TOP:35px; left:126px;
+	
+}
+
+#home
+{
+	position:relative;
+	margin-top:22px;
+	margin-left:474px;
+	padding-top:14px;
+	opacity:0;
+	
+	
+	
+}
+
+
+#me
+{
+	border: 2px dotted;
+	margin:10 auto;
+	position:relative;
+	width:400px;
+	text-align:center;
+	padding: 16px 32px;
+}
+	
+
+.button
+{
+	background-color: #ffffff;
+    border: 2px solid #eb0028;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover
+{
+	background-color: #eb0028;
+    border: 2px solid#eb0028;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+ul{
+	position:relative;
+	top:0;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+    background-color: #333;
+	
+}
+li
+{
+	float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+	margin:0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active
+{
+	background-color:#eb0028;
+}
+
+li a:hover:not(.active)
+{
+	background-color:#111;;
+}
+
+#sbody
+{
+	background-image: url("logo.png");
+}
+
+#sdis
+{
+	font-family: courier new;
+	font-size: 20px;
+	margin-top:270px;
+	
+}
+
+#scpu
+{
+	font-family: courier new;
+	font-size: 20px;
+	margin-top:564px;
+}
+
+#scam
+{
+	font-family: courier new;
+	font-size: 20px;
+}
+
