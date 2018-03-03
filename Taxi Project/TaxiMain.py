@@ -10,6 +10,7 @@ if(user):
     print("Welcome",user)
 else:
     print("Not registered, please register")
+    exit()
 
 
 #                  ARRIVAL TIME TIMER
