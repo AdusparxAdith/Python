@@ -19,11 +19,10 @@ def account():
 
         for line in file:
             index = line.find("/")
-            if(line[:index].strip() != username and line[index+1:].strip() != password):
-                continue
-            else:
+            if(line[:index].strip() == username and line[index+1:].strip() == password):
                 return(username)
-        return(None)
+            else:
+                return(None)
 
 #                       REGISTER NEW USER
     elif ( choice == "2"):
