@@ -1,5 +1,5 @@
 USE 'yes' or 'no' for queries 
 
-queries are case sensitive
+inputs are case sensitive
 
 for pooling to succeed, enter location same as any of the entries in the TAXILOG file .
